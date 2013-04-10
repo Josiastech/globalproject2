@@ -1,0 +1,479 @@
+body {
+	background-color: #005468;
+	margin: 0;
+	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+	padding: 0;
+}
+h1 {
+	color: #ffffff;
+	margin: 0;
+}
+a {
+	color: #ffffff;
+}
+.bs-docs-sidenav > li > a {
+	border: 0;
+}
+.bs-docs-sidenav {
+	background: none;
+	border: 0 1px 0 0 solid #000000;
+	width: 100%;
+}
+
+.span2{
+		width: 50%;
+		float: left;
+		border: 0;
+	}
+	.span10 {
+		width: 50%;
+		float: left;
+	}
+	.menu_element{
+		float: left;
+	}
+
+/*.span2 {
+	border-color: #000000;
+	border-style: solid;
+	border-width: 0 1px 0 0;
+	padding-bottom: 30px;
+}
+*/
+p {
+	color: #ffffff;
+}
+/* Estilos */
+.container-fluid {
+	padding: 0;
+}
+.row-fluid .span10 {
+	margin: 0;
+}
+.header, .header_sidebar {
+	background: #5C919E;
+	text-align: center;
+}
+.span10 .content {
+	/*padding-left:10px;
+	 padding-right: 10px;*/
+}
+.span10 .content h2{
+	text-align: center;
+}
+/* Global Project Styles */
+.ui-panel-animate.ui-panel-content-wrap > .ui-header.jqm-header {
+	height: 67px;
+}
+.first_sidebar {
+	float: left;
+	width: 50%;
+}
+.second_sidebar {
+	float: left;
+	width: 50%;
+}
+
+/*Menu RIGHT*/
+.menu_right .menu {
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: #ffffff;
+}
+
+
+
+/*********     Contact Page     **********/
+body.contact .span10 .content{
+	background: #ffffff;
+	min-height: 768px;
+}
+body.contact .header {
+	height: 45px;
+}
+body.contact .header p {
+	font-size: 19px;
+}
+body.contact .span2 {
+	text-align: center;
+}
+body.contact .span2 .span3 .contenido {
+	margin-top: 250px;
+}
+body.contact .span2 button {
+	width: 150px;
+	margin: 5px 0;
+	height: 30px;
+	padding: 4px 20px;
+}
+body.contact .span2 span {
+	text-align: center;
+	color: #ffffff;
+}
+body.contact .content_right .image {
+	text-align: center;
+	padding: 20px;
+}
+body.contact .send {
+	margin-top: 10px;
+}
+body.contact .texto{
+	padding: 0 10px;
+}
+body.contact .span3 .contenido span{
+	margin: 0;
+	font-size: 15px;
+}
+body.contact .span3 .contenido br{
+
+}
+
+/*********     Craftman Page     *********/
+body.craftman .span10 .content{
+	min-height: 768px;
+}
+body.premier .span10 .content{
+	padding: 10px 20px;
+	background: #005468;
+	
+	color: #ffffff;
+}
+body.premier .span10 .content h2{
+	text-align: center;
+	font-size: 22px;
+}
+body.craftman .span10 .content h2{
+	text-align: center;
+}
+body.craftman .span10 {
+	background: #fff;
+}
+.carousel-control {
+	display: none;
+}
+body.craftman .span10 .content .texto{
+	padding: 0 25px;
+}
+
+
+/*********     AMENITIES     *********/
+body.amenities .span2 .container span{
+	color: #ffffff;
+}
+.carousel-indicators{
+	position: absolute;
+	top: 459px;
+	right: 337px;
+	z-index: 5;
+	margin: 0;
+	list-style: none;
+}
+body.amenities .span10 {
+	background: #fff;
+}
+#carousel .carousel-inner img{
+	margin: 0 auto;
+}
+body.amenities .span3 .container{
+	margin-top: 25px;
+}
+body.amenities .span10 .content{
+	min-height: 768px;
+}
+body.amenities .span10 .content span{
+	padding: 25px 10px 17px 10px;
+}
+body.amenities .span10 .content .page-header{
+	border-color: #060D34;
+}
+body.amenities .span10 .texto{
+	padding: 0 10px;
+}
+body.amenities .span3 .container .menu{
+	margin: 115px 10px;
+}
+body.amenities .span3 .container .texto_left{
+	text-align: center;
+	text-transform: uppercase;
+	margin: 100px;
+}
+.container{
+	width: 100%;
+}
+/* GENERALES */
+.ui-btn-active {
+	/*border: 1px solid #2373a5 ;*/
+	background: #5393c5 ;
+	font-weight: bold;
+	color: #fff ;
+	cursor: pointer;
+	text-shadow: 0  1px 0  #3373a5;
+	text-decoration: none;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #7CA7B1), to( #003A48)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #7CA7B1 , #003A48); /* Chrome 10+, Saf5.1+ */
+	background-image: -moz-linear-gradient( #7CA7B1 , #003A48 ); /* FF3.6 */
+	background-image: -ms-linear-gradient( #7CA7B1 , #003A48 ); /* IE10 */
+	background-image: -o-linear-gradient( #7CA7B1 , #003A48 ); /* Opera 11.10+ */
+	background-image: linear-gradient( #7CA7B1 , #003A48);
+	font-family: Helvetica, Arial, sans-serif ;
+}
+.ui-navbar li .ui-btn .ui-btn-inner {
+	padding-top: .7em;
+	padding-bottom: .8em;
+}
+.ui-header .ui-btn-inner, .ui-footer .ui-btn-inner, .ui-mini .ui-btn-inner {
+	font-size: 12.5px;
+	padding: .55em 11px .5em;
+}
+.ui-btn-inner {
+	font-size: 35px;
+	padding: .6em 20px;
+	min-width: .75em;
+	display: block;
+	position: relative;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	zoom: 1;
+	font-weight: bold;
+	text-align: center;
+}
+.ui-btn-inner {
+	border-top: 1px solid #fff;
+	border-color: rgba(255,255,255,.3);
+}
+.ui-btn-text {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+.ui-btn-inner, .ui-btn-text {
+	-webkit-border-radius: inherit;
+	border-radius: inherit;
+	font-size: 22px;
+}
+.btn-warning ul{
+	margin: 0;
+	padding: 0;
+}
+.btn-warning ul li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 0;
+	position: relative;
+	left: -47px;
+}
+.icon-envelope {
+	background-position: -72px 0 !important;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-top: 1px;
+	*margin-right: .3em;
+	line-height: 14px;
+	vertical-align: text-top;
+	background-image: url("../img/glyphicons-halflings.png");
+	background-position: 14px 14px;
+	background-repeat: no-repeat;
+}
+
+.ui-icon-back {
+	background-position: -396px -1px;
+}
+.ui-icon-shadow {
+	-moz-box-shadow: 0px 1px 0 rgba(255,255,255,.4) ;
+	-webkit-box-shadow: 0px 1px 0 rgba(255,255,255,.4) ;
+	box-shadow: 0px 1px 0 rgba(255,255,255,.4) ;
+}
+.ui-icon, .ui-icon-searchfield:after {
+	background-color: #666;
+	background-color: rgba(0,0,0,.4);
+	background-image: url(../img/icons-18-white.png);
+	background-repeat: no-repeat;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+}
+
+body.typical .span10{
+	background: #ffffff;	
+}
+
+
+
+/* iphone media queries portrait*/
+@media only screen and (min-width : 320px) and (max-width : 568px) and (orientation : portrait) {
+	
+}
+
+/* iphone media queries landscape */
+@media (min-width: 545px) and (max-width: 767px) and (orientation: landscape){
+
+}
+
+/* ipad media queries landscape */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape){
+	/*@media only screen and (min-width: 768px) and (orientation: landscape) {*/
+	.span2{
+		width: 50%;
+		float: left;
+		border: 0;
+	}
+	.span10 {
+		width: 50%;
+		float: left;
+	}
+	.menu_element{
+		float: left;
+	}
+}
+
+/* ipad media queries portrait */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+	/*@media only screen and (min-width: 768px) and (orientation: portrait) {*/
+	
+}
+
+/*Index Page*/
+@media (max-width: 767px) {
+	.span2 {
+		width: 50% !important;
+		float: left;
+		padding: 0;
+		margin: 0;
+		border: 0;
+	}
+
+	.span10 {
+		width: 50% !important;
+		float: left;
+		padding: 0;
+		border: 0;
+		margin: 0;
+	}
+
+	body.contact .span10 {
+		width: 60% !important;
+		background: #ffffff;
+		height: 768px;
+	}
+	body.contact .span2 {
+		width: 40% !important;
+	}
+	body.contact .span10 p {
+		color: #000000;
+	}
+	body.craftman .span2 {
+		width: 35% !important;
+	}
+	body.craftman .span10 {
+		width: 65% !important;
+	}
+	body.craftman .carousel-control {
+		display: none;
+	}
+	body.craftman .span10 .content{
+		background: #ffffff;
+		min-height: 748px;
+		padding: 0 10px;
+	}
+
+}
+
+/* iphone css*/
+@media (min-width: 320px) and (max-width: 568px){
+	body.home .row-fluid .span10{
+		width: 100% !important;
+	}
+	body .row-fluid .span2{
+		display: none;
+	}
+	body .row-fluid .span10{
+		width: 100% !important;
+	}
+	body .span10 .content{
+		padding: 0 !important;
+	}
+	body.premier .span10 .content{
+		padding: 10px 20px !important;
+	}
+	.span10 .content span{
+		font-size: 13px;
+		line-height: 0;
+		letter-spacing: 0.5px;		
+	}
+	body .span10 .content #carousel{
+		padding: 30px 5px 5px 5px;
+	}
+	.titulo-iphone{
+		float: left;
+		width: 100%;
+		color: #ffffff;
+		cursor: pointer;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: center;
+		background: #5393c5;
+		padding: 10px 0 0 5px;
+		text-decoration: none;
+		display: block !important;
+		text-shadow: 0  1px 0  #3373a5;
+		background-image: -webkit-gradient(linear, left top, left bottom, from( #7CA7B1), to( #003A48)); /* Saf4+, Chrome */
+		background-image: -webkit-linear-gradient( #7CA7B1 , #003A48); /* Chrome 10+, Saf5.1+ */
+		background-image: -moz-linear-gradient( #7CA7B1 , #003A48 ); /* FF3.6 */
+		background-image: -ms-linear-gradient( #7CA7B1 , #003A48 ); /* IE10 */
+		background-image: -o-linear-gradient( #7CA7B1 , #003A48 ); /* Opera 11.10+ */
+		background-image: linear-gradient( #7CA7B1 , #003A48);
+	}
+	.titulo-iphone .h1{
+		font-size: 15px;
+	}
+	.titulo-iphone .span{
+		font-size: 13px;
+	}
+	.menu_element{
+		float: left;
+		width: 50%;
+		height: 160px;
+	}
+	body.home .row-fluid .span10 .content a{
+		/*width: 49%;
+		float: left;*/
+	}
+	/* Carrusel  craftman**/
+	.carousel-caption h4{
+		font-size: 15px;
+	}	
+	.carousel-caption, .carousel-caption h4, .carousel-caption p{
+		background: none;
+		color: #000000;
+		text-align: justify;
+		font-size: 14px;
+	}
+	body .span10 .content h2{
+		font-size: 15px;
+	}
+	body .span10 .content .texto span{
+		background: none;
+		color: #000000;
+		text-align: justify;
+		font-size: 14px;	
+	}
+	.page-header{
+		padding: 0;
+		margin: 10px 0 10px;
+	}
+}
+
+@media screen and (max-width: 640px){
+	body.home .span2{
+		display: none;
+	}	
+}
